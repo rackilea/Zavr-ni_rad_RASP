@@ -23,6 +23,7 @@ Ukoliko se emolator automatski ne pokrene, moguće ga je pokrenuti klikom na "St
 
 Sljedeći korak je pokrenuti aplikaciju u Android Studiu. Ukoliko nemate instaliran Android Studio, on je dostupan na sljedećoj poveznici : https://developer.android.com/studio/index.html . Također , prilikom instalacije Android Studija dovoljno je podržati sve defaultne postavke. 
 Prilikom pokretanja aplikacije iz Android studija(klikom na ikonicu Run ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Run.PNG)), potrebno je odabrati Genymotion uređaj. 
+
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/select_deployment_tagret.PNG)
 
 Prije paljenja aplikacije pojaviti će se popup koji traži dozvolu za Superuser mogućnosti. Potrebno je potvrditi tu opciju.
