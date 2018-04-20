@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RASP</string>
+
+    <string name="lbl__no_tampering_in_progress">App is secured. No tampering in progress.</string>
+    <string name="lbl__tampering_in_progress">Alert!! App is NOT secured. Tampering detected!</string>
+
+    <string name="lbl__device_not_rooted">Device is not rooted.</string>
+    <string name="lbl__device_rooted">Device is rooted.</string>
+
+    <string name="lbl__no_debugger_attached">No debugger is attached to app.</string>
+    <string name="lbl__debugger_attached">Debugger is attached to app.</string>
+</resources>

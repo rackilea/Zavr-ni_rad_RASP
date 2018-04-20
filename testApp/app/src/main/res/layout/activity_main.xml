@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tampering_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/lbl__no_tampering_in_progress"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:id="@+id/image_tampering_detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tampering_lbl"
+        android:layout_alignTop="@+id/tampering_lbl"
+        android:layout_toEndOf="@+id/tampering_lbl"
+        app:srcCompat="@drawable/check_icon" />
+
+    <TextView
+        android:id="@+id/root_detection_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tampering_lbl"
+        android:layout_marginTop="64dp"
+        android:text="@string/lbl__device_not_rooted"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/image_root_detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/root_detection_lbl"
+        android:layout_alignTop="@+id/root_detection_lbl"
+        android:layout_toEndOf="@+id/root_detection_lbl"
+        app:srcCompat="@drawable/check_icon" />
+
+    <TextView
+        android:id="@+id/debug_detection_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/root_detection_lbl"
+        android:layout_marginTop="64dp"
+        android:text="@string/lbl__no_debugger_attached"
+        android:textSize="16sp"/>
+
+
+    <ImageView
+        android:id="@+id/image_debug_detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/debug_detection_lbl"
+        android:layout_alignTop="@+id/debug_detection_lbl"
+        android:layout_toEndOf="@+id/debug_detection_lbl"
+        app:srcCompat="@drawable/check_icon"/>
+</RelativeLayout>
