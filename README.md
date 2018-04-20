@@ -37,4 +37,5 @@ Kako bismo testirali detekciju debugera, aplikaciju iz Android Studija moguće j
 Ukoliko smo aplikaciju pokrenuli s Run opcijom, nakon podizanja aplikacije potrebno je naknadno upaliti debuger pritiskom na ikonu Attach degubber to Android proccess (![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Attach_debugger.PNG)). Aplikacija će svake dvije sekunde provjeravati je li debuger aktivan te će u skladu s tom informacijom mijanjeti labele i slati upozorenje. Debuger se gasni pritiskom na gumb Stop(![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Stop.PNG)).
 Tokom paljenja i gašenja debuggera, izmjenjivat će se sljedeća dva ekrana :
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Screenshot_20180420-172416.png)
+
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Screenshot_20180420-172503.png)
