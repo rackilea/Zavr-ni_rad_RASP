@@ -21,7 +21,20 @@ Potom odabrati željeni emulator/uređaj na kojemu će se testirati aplikacija (
 Ukoliko se emolator automatski ne pokrene, moguće ga je pokrenuti klikom na "Start".
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/start_device.PNG)
 
-Sljedeći korak je pokrenuti aplikaciju u Android Studiu. Ukoliko nemate instaliran Android Studio, on je dostupan na sljedećoj poveznici : https://developer.android.com/studio/index.html . Također , prilikom instalacije Android Studija dovoljno je podržati sve defaultne postavke. Prilikom pokretanja aplikacije iz Android studija(klikom na ikonicu zelenog trokuta), potrebno je odabrati Genymotion uređaj. Prije paljenja aplikacije pojaviti će se popup koji traži dozvolu za Superuser mogućnosti. Potrebno je potvrditi tu opciju.
+Sljedeći korak je pokrenuti aplikaciju u Android Studiu. Ukoliko nemate instaliran Android Studio, on je dostupan na sljedećoj poveznici : https://developer.android.com/studio/index.html . Također , prilikom instalacije Android Studija dovoljno je podržati sve defaultne postavke. 
+Prilikom pokretanja aplikacije iz Android studija(klikom na ikonicu Run ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Run.PNG)), potrebno je odabrati Genymotion uređaj. 
+![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/select_deployment_tagret.PNG)
+
+Prije paljenja aplikacije pojaviti će se popup koji traži dozvolu za Superuser mogućnosti. Potrebno je potvrditi tu opciju.
+![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/allow_SU.PNG)
+
+Nakon pokretanja aplikacije, trebali biste vidjeti sljedeći ekran.
+![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/device_rooted.PNG)
 
 # 2. testiranje "Debug detectiona":
-Za ovaj nam je test tekođer potreban Android Studio te Android uređaj ili emulator (može gore navedeni Genymotion emulator). Kako bismo testirali detekciju debugera, aplikaciju iz Android Studija moguće je pokrenuti klikom na gumb Run(zeleni trokutić) ili klikom na gumb Debug(druga ikonica desno od ikone za Run). Ukoliko smo aplikaciju pokrenuli s Run opcijom, nakon podizanja aplikacije potrebno je naknadno upaliti debuger pritiskom na ikonu Attach degubber to Android proccess (peta ikona desno od ikone za Run). Aplikacija će dvake dvije sekunde provjeravati je li debuger aktivan te će u skladu s tom informacijom mijanjeti labele i slati upozorenje. debuger se gasni pritiskom na gumb Stop(prva ikona desno od ikone za attachanje debuggera - ikona crvenog kvadrata).
+Za ovaj nam je test također potreban Android Studio te Android uređaj ili emulator (može gore navedeni Genymotion emulator).
+Kako bismo testirali detekciju debugera, aplikaciju iz Android Studija moguće je pokrenuti klikom na gumb Run( ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Run.PNG)) ili klikom na gumb Debug(![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Run_with_debugger.PNG)). 
+Ukoliko smo aplikaciju pokrenuli s Run opcijom, nakon podizanja aplikacije potrebno je naknadno upaliti debuger pritiskom na ikonu Attach degubber to Android proccess (![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Attach_debugger.PNG)). Aplikacija će svake dvije sekunde provjeravati je li debuger aktivan te će u skladu s tom informacijom mijanjeti labele i slati upozorenje. Debuger se gasni pritiskom na gumb Stop(![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Stop.PNG)).
+Tokom paljenja i gašenja debuggera, izmjenjivat će se sljedeća dva ekrana :
+![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Screenshot_20180420-172416.png)
+![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Screenshot_20180420-172503.png)
