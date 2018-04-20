@@ -14,7 +14,7 @@ Prilikom instalacije, dovoljno je podržati sve defaultne postavke. Nakon uspje�
 
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/personal_use.PNG)
 
-Potom odabrati željeni emulator/uređaj na kojemu će se testirati aplikacija (preporučam uređaj "Samsung Galaxy S8 - 7.0.0 - API24 - 1440x2960). Nakon odabira uređaja, potrebno je dva puta odbrati gumb "Next" i nakon toga gubm "Finish".
+Potom odabrati željeni emulator/uređaj na kojemu će se testirati aplikacija (preporučam uređaj "Samsung Galaxy S8 - 7.0.0 - API24 - 1440x2960). Nakon odabira uređaja, potrebno je dva puta odbrati gumb "Next" i nakon toga gumb "Finish".
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/add_device.PNG)
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/choose_device.PNG)
 
