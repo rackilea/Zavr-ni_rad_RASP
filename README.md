@@ -2,8 +2,7 @@
 
 # Testiranje aplikacije :
 # 1. testiranje "Root detectiona":
-Kako bismo testirali je li uređaj rootan, potrebno je skinuti Genymotion desktop emulator. 
-On je dostupan na sljedećoj stranici: https://www.genymotion.com/blog/2-12-oreo-final/ . 
+In order to test root detection, it is necessary to download Genymotion desktop emulator available on the following web page :   https://www.genymotion.com/blog/2-12-oreo-final/ . 
 Pri dnu stranice nalazi se gumb za preuzimanje emultora. Moguće je preuzeti običnu ili trial verziju emulatora. 
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/Genymotion_download.PNG)
 
