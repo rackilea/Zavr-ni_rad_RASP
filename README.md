@@ -25,7 +25,7 @@ When launching the app from Android Studio(by clicking on the Run button![alt te
 
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/select_deployment_tagret.PNG)
 
-Before the application is triggered, a popup appears asking for a permission for Superuser options. It is necessary to confirm this option.
+Before the application is triggered, a popup appears asking for a permission for Superuser options. It is necessary to confirm this option.  
 ![alt text](https://github.com/rackilea/Zavrsni_rad_RASP/blob/master/upute-slike/allow_SU.PNG)
 
 After running the app, you should see the next screen.
