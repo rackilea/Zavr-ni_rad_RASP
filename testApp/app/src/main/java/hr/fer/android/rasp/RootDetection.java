@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.os.Build;
 
+import java.io.File;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -25,7 +26,7 @@ public final class RootDetection {
     private static final String ROOT_PACKAGE_6 = "com.genymotion.superuser";
 
     public boolean isRootDetected(Context context) throws Exception {
-        return canSudoCommandBeExecuted() | areTestKeysIncluded() | areRootPackagesInstalled(context);
+        return canSudoCommandBeExecuted() | areTestKeysIncluded() | areRootPackagesInstalled(context) | hasSuperuserApk();
     }
 
     private boolean canSudoCommandBeExecuted() {
@@ -33,10 +34,8 @@ public final class RootDetection {
         try {
             process = Runtime.getRuntime().exec(SU_COMMAND);
             return true;
-
         } catch (final Exception e) {
             return false;
-
         } finally {
             if (process != null) {
                 process.destroy();
@@ -47,7 +46,6 @@ public final class RootDetection {
     private boolean areTestKeysIncluded() {
         try {
             return Build.TAGS.equals("test-keys");
-
         } catch (final Exception e) {
             return false;
         }
@@ -71,8 +69,10 @@ public final class RootDetection {
                 return true;
             }
         }
-
         return false;
     }
 
+    private boolean hasSuperuserApk() {
+        return new File("/system/app/Superuser.apk").exists();
+    }
 }

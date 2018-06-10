@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity implements TimeoutHandler.Ti
     private ImageView tamperingImage, rootDetectionImage, debugdetectionImage;
 
     private RootDetection rootDetection = new RootDetection();
-    private DebugDetection debugDetection = new DebugDetection();
 
     private boolean isDebug;
     private boolean isRoot;
@@ -44,15 +43,18 @@ public class MainActivity extends AppCompatActivity implements TimeoutHandler.Ti
     protected void onResume() {
         super.onResume();
             checkIfTampering();
-            notifyIfTampering();
     }
 
     private void checkIfTampering() {
-        isDebug = debugDetection.isDebuggerConnectedCheck();
+        isDebug = DebugDetection.isDebuggerPresent();
         try {
             isRoot = rootDetection.isRootDetected(this);
         } catch (Exception e) {
             e.printStackTrace();
+        }
+
+        if (isRoot || isDebug){
+            notifyIfTampering();
         }
     }
 
